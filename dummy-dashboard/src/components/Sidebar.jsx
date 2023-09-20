@@ -3,7 +3,7 @@ import { ArrowUpIcon, BellIcon, ChartBarIcon, CreditCardIcon, DocumentSearchIcon
 
 function Sidebar() {
   return (
-    <div className='w-14 min-h-screen md:w-16 bg-slate-950 flex flex-col items-center justify-between'>
+    <div className='w-14 min-h-screen md:w-16 bg-slate-950 flex flex-col items-center justify-between fixed'>
         <div className='flex flex-col items-center'>
             <div className='items-center flex my-2 hover:bg-slate-800 p-2 rounded'>
                 <HomeIcon color='white' width={34} />  

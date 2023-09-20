@@ -8,7 +8,7 @@ function App() {
   return (
     <div className='text-center flex flex-row bg-slate-950 min-w-full'>
         <Sidebar />
-        <div className='w-full'>
+        <div className='w-full ml-10'>
             <Header />
             <Master />
         </div>
